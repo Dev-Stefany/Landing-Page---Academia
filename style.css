@@ -1,0 +1,67 @@
+@charset "UTF-8";
+@font-face {
+    font-family:northash ;
+    src: url(fonts/Northash.otf);
+}
+
+body{
+    height: 94vh;
+    background-color: black;
+    color: white;
+    min-width: 300px;
+    max-width: 1300px;
+    background-image: url(imagens/Design\ sem\ nome\ \(2\).jpg);
+
+}
+header{
+    font-size: large;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: northash;
+    padding: 10px;  
+}
+h2{
+    text-align: center;
+    color:rgb(120, 102, 202)
+}
+main{
+    background-color: rgba(0, 0, 0, 0.61);
+    height: 450px;
+    max-width: 700px;
+    margin: auto auto;  
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 70%;
+    padding-top: 50px;
+}
+form > h2{
+    color: rgb(120, 102, 202);
+    font-weight: bolder;
+    margin: auto;
+}
+input[type=submit]{
+    font-weight: bolder;
+    height: 50px;
+    width: 70px;
+    background-color: rgb(97, 65, 184);
+    border: 10px;
+    margin: auto;
+    margin-top: 20px;
+}
+input[type=submit]:hover{
+    background-color: rgba(103, 103, 240, 0.781);
+}
+input{
+    margin-top: 15px;
+    height: 15px;
+    padding: 15px;
+    border: 10px;
+    border-radius: 10px;
+}
+
