@@ -59,7 +59,7 @@ input[type=submit]{
    margin-bottom: 15px; 
 }
 input[type=date]{
-    width: 91%;
+    width: 93%;
 }
 input[type=submit]:hover{
     background-color: rgba(103, 103, 240, 0.781);
