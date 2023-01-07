@@ -50,8 +50,8 @@ form > h2{
 }
 input[type=submit]{
     font-weight: bolder;
-    height: 50px;
-    width: 70px;
+    height: 20px;
+    width: 40px;
     background-color: rgb(97, 65, 184);
     border: 10px;
     margin: auto;
@@ -63,6 +63,7 @@ input[type=submit]:hover{
     background-color: rgba(103, 103, 240, 0.781);
 }
 input[type=date]{
+    display: flex;
     box-sizing: content-box;
 }
 input{
