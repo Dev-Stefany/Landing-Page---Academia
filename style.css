@@ -58,9 +58,7 @@ input[type=submit]{
     margin-top: 15px;
    margin-bottom: 15px; 
 }
-input[type=date]{
-    width: 300px;
-}
+
 input[type=submit]:hover{
     background-color: rgba(103, 103, 240, 0.781);
 }
